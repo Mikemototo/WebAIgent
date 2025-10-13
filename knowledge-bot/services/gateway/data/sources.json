@@ -1,0 +1,22 @@
+[
+  {
+    "id": "tenant1-source",
+    "tenantId": "TENANT_1",
+    "type": "url",
+    "value": "https://tenant1.com",
+    "embeddingProvider": "ollama",
+    "metadata": {},
+    "createdAt": "2025-10-11T08:17:50.822Z",
+    "lastTriggeredAt": "2025-10-11T08:17:50.822Z"
+  },
+  {
+    "id": "tenant2-source",
+    "tenantId": "TENANT_2",
+    "type": "url",
+    "value": "https://tenant2.com",
+    "embeddingProvider": "ollama",
+    "metadata": {},
+    "createdAt": "2025-10-11T08:17:50.822Z",
+    "lastTriggeredAt": "2025-10-11T08:17:50.822Z"
+  }
+]

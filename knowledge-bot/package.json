@@ -1,0 +1,8 @@
+{
+  "name": "knowledge-bot",
+  "private": true,
+  "scripts": {
+    "build-widget": "npx esbuild widget/widget.js --bundle --minify --format=iife --global-name=KnowledgeBotWidget --outfile=dist/widget.bundle.js"
+  },
+  "devDependencies": {}
+}
