@@ -138,6 +138,14 @@ pip-wheel-metadata/
 *.egg-info/
 dist/
 build/
+.mypy_cache/
+.pytest_cache/
+.nox/
+.tox/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
 
 # Project-specific
 knowledge-bot/services/gateway/data/sources.db
@@ -145,3 +153,39 @@ knowledge-bot/services/gateway/data/sources.json
 test-data/
 .vscode/
 .DS_Store
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Editors and tooling
+.idea/
+.fleet/
+.history/
+.vscode-*
+.swp
+.swo
+*.swp
+*.swo
+*~
+.direnv/
+.envrc
+.python-version
+.tool-versions
+
+# Operating system
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Misc
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
